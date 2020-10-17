@@ -10,4 +10,9 @@ app.get('/miwtoo', (req, res) => {
 app.get('/many', (req, res) => {
 	res.send('Howdy! I am Many!!!!!');
 });
+app.get('/kom', (req, res) => {
+	res.send("Hello!!!!, I am Kom.")
+	res.send({ message: 'hey' })
+});
+
 module.exports = app;
